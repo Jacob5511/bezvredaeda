@@ -3,6 +3,8 @@ from telegram.ext import *
 import json, os
 from dotenv import load_dotenv
 import logging
+import threading
+from http.server import BaseHTTPRequestHandler, HTTPServer
 
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
@@ -341,6 +343,19 @@ async def cancel_upload(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
 
 
+class DummyServer(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b"Bot is running")
+
+
+def run_server():
+    server_address = ('0.0.0.0', 10000)
+    httpd = HTTPServer(server_address, DummyServer)
+    httpd.serve_forever()
+
+
 if __name__ == "__main__":
     app = ApplicationBuilder().token(TOKEN).build()
     admin_filter = filters.User(user_id=load_admins())
@@ -362,4 +377,6 @@ if __name__ == "__main__":
         ]
     ))
     print("Bot running...")
+    # In main block or right before `app.run_polling()`
+    threading.Thread(target=run_server, daemon=True).start()
     app.run_polling()
