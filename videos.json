@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Lol",
+    "price": 90.0,
+    "file_id": "BAACAgIAAxkBAAMWZ_E2FUpxsMRIKVWrATt6wSB37pUAAnpqAALAe4BLtc9FD7kmulE2BA"
+  },
+  {
+    "file_id": "BAACAgIAAxkBAAMWZ_E2FUpxsMRIKVWrATt6wSB37pUAAnpqAALAe4BLtc9FD7kmulE2BA",
+    "title": "Lol",
+    "price": 10.0
+  },
+  {
+    "file_id": "BAACAgIAAxkBAAPraAhLpzvYWS11JuFCNba6H91VgJEAAktwAAJddUBIPdiLVNUODEY2BA",
+    "title": "Backflip",
+    "price": 100.0
+  },
+  {
+    "file_id": "BAACAgIAAxkBAAIBE2gIXX2Lc9SulhVn0Ptxt1xa5LNaAAJscAACXXVASNSKLa3xJ0MVNgQ",
+    "title": "\u0411\u0438\u043b\u044c\u044f\u0440\u0434",
+    "price": 101.0
+  },
+  {
+    "file_id": "BAACAgIAAxkBAAICHmgIpRO5kLh7JTlNj9Oc33NV8ivuAALJcwACXXVASFJV1oQraLS7NgQ",
+    "title": "?",
+    "price": 19.0
+  },
+  {
+    "file_id": "BAACAgIAAxkBAAICuWgaDsyLLqyf9wdOpqS5NTP3FcNxAAJwcgACdYfQSOGadzVbQ9LUNgQ",
+    "title": "\u041f\u0440\u044b\u0436\u043a\u0438 \u043d\u0430 \u0431\u0430\u0442\u0443\u0442\u0435",
+    "price": 192.0
+  },
+  {
+    "file_id": "BAACAgIAAxkBAAIDAAFoGhSEBT5fc3hKvmnAy-khPFmvwAAC4nIAAnWH0Eipw3g8BDf1oTYE",
+    "title": "\u0412\u0442\u043e\u0440\u043e\u0435 \u0437\u0430\u0434\u043d\u0435\u0435 \u0441\u0430\u043b\u044c\u0442\u043e. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043d\u0430 \u0434\u043b\u0438\u043d\u043d\u044b\u0439 \u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043e\u043a. \u0422\u0438\u043f\u0430 \u0431\u043b\u0430\u0431\u043b\u0430\u0431\u043b\u0430. \u0410\u0430\u0430\u0430. \u0413\u0434\u0435-\u0442\u043e \u0437\u0434\u0435\u0441\u044c \u0434\u043e\u043b\u0436\u043d\u0430 \u0431\u044b\u0442\u044c \u0446\u0435\u043d\u0430 \ud83d\ude01",
+    "price": 1.8939871882929292e+16
+  },
+  {
+    "file_id": "BAACAgIAAxkDAAIComgaAAGHYd9gyK_o7ATTctcS8oR_WgACbHAAAl11QEjUii2t8SdDFTYE",
+    "title": "\u0415\u0449\u0451 \u043e\u0434\u0438\u043d \u0431\u0438\u043b\u044c\u044f\u0440\u0434",
+    "price": 81.0
+  },
+  {
+    "file_id": "BAACAgIAAxkBAAIDDWgaFQNYsYoyc76zqt6b4H-kOlbdAALscgACdYfQSD0aaOSjJmcfNgQ",
+    "title": "\u0418 \u0435\u0449\u0451 \u0441\u0430\u043b\u044c\u0442\u0443\u0449\u0435\u0447\u043a\u0430",
+    "price": 377.338
+  }
+]
