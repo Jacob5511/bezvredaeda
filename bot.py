@@ -6,7 +6,7 @@ import logging
 
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
-# дллвтыадлывтатдл
+
 VIDEO_META_FILE = "videos.json"
 USER_DATA_FILE = "user_data.json"
 ADMIN_FILE = "admin_ids.json"
