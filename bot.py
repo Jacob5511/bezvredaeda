@@ -4,6 +4,8 @@ import json, os
 from dotenv import load_dotenv
 import logging
 
+
+
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 
